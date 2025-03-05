@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PyCompareC"
+version = "0.1.0"
+description = "A NumPy transcription of the R package CompareC, for comparing two correlated C indices with right-censored survival outcome."
+authors = [
+    {name = "Qian Cao", email = "qcao.dev@gmail.com"},
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.5"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy",
+]
+
+[project.urls]
+Homepage = "https://github.com/qiancao/PyCompareC"
+Issues = "https://github.com/qiancao/PyCompareC/issues"
+
